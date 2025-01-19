@@ -1,1 +1,46 @@
-then
+<center>
+  <div class="buttoncontainer">
+    <div class="button1">
+      <center>
+
+<p>
+      <img class="buttonimage" src="https://raw.githubusercontent.com/GumbaBunny/CodingStory/refs/heads/main/Other/Name.png" width="200" />
+    </p><audio class="audio" src="https://raw.githubusercontent.com/GumbaBunny/CodingStory/main/Audio/JimButton.mp3" controls="controls" crossorigin="anonymous" preload="metadata">
+</audio>
+      </center>
+    </div>
+    <div class="button2"></div>
+  </div>
+</center><center>
+
+<p class="hide">Jim.</p></center><center>
+  <div class="buttoncontainer">
+    <div class="button1">
+      <center>
+
+<p>
+      <img class="buttonimage" src="https://raw.githubusercontent.com/GumbaBunny/CodingStory/refs/heads/main/Other/Name.png" width="200" />
+    </p><audio class="audio" src="https://raw.githubusercontent.com/GumbaBunny/CodingStory/main/Audio/Stanley.mp4" controls="controls" crossorigin="anonymous" preload="metadata">
+</audio>
+      </center>
+    </div>
+    <div class="button2"></div>
+  </div>
+</center><center>
+
+<p class="hide">Stanley.</p></center><center>
+  <div class="buttoncontainer">
+    <div class="buttonEight">
+      <center>
+
+<p>
+      <img class="buttonimageEight" src="https://raw.githubusercontent.com/GumbaBunny/CodingStory/refs/heads/main/Other/Eight.png" width="200" />
+    </p><audio class="audio" src="https://raw.githubusercontent.com/GumbaBunny/CodingStory/main/Audio/EightButton.mp3" controls="controls" crossorigin="anonymous" preload="metadata">
+</audio>
+      </center>
+    </div>
+    <div class="button2"></div>
+  </div>
+</center><center>
+
+<p class="hide">Eight.</p></center>
