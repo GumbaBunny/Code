@@ -1,0 +1,4558 @@
+#workskin START OF CSS ################################## {
+  color: INHERIT;
+}
+
+#workskin .CourierNew {
+  font-family: 'Courier New', monospace;
+  text-decoration: none;
+}
+
+#workskin .CourierNewGreen {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  color: #65c162;
+}
+
+#workskin .spacing {
+  line-height: 5;
+}
+
+#workskin a {
+  border: none;
+  outline: none;
+}
+
+#workskin .hide {
+  display: none;
+}
+
+#workskin .title {
+  font-family: 'Courier New', monospace;
+}
+
+#workskin .background {
+  background-color: black;
+  padding: 3em;
+}
+
+#workskin .choices {
+  background-color: black;
+  padding: 1em;
+}
+
+#workskin .link {
+  color: #65c162;
+}
+
+#workskin TEXT EFFECTS ################################## {
+  color: INHERIT;
+}
+
+#workskin .black {
+  color: #000000;
+}
+
+#workskin .white {
+  color: #ffffff;
+}
+
+#workskin .gray {
+  color: #6C757D;
+}
+
+#workskin .red {
+  color: #EE352E;
+}
+
+#workskin .orange {
+  color: #ffa360;
+}
+
+#workskin .yellow {
+  color: #FCCC0A;
+}
+
+#workskin .green {
+  color: #00923C;
+}
+
+#workskin .teal {
+  color: #44dbdb;
+}
+
+#workskin .blue {
+  color: #1845d2;
+}
+
+#workskin .purple {
+  color: #B933AD;
+}
+
+#workskin .brown {
+  color: #996633;
+}
+
+#workskin .opacity90 {
+  opacity: 90%;
+}
+
+#workskin .opacity80 {
+  opacity: 80%;
+}
+
+#workskin .opacity70 {
+  opacity: 70%;
+}
+
+#workskin .opacity60 {
+  opacity: 60%;
+}
+
+#workskin .opacity50 {
+  opacity: 50%;
+}
+
+#workskin .opacity40 {
+  opacity: 40%;
+}
+
+#workskin .opacity30 {
+  opacity: 30%;
+}
+
+#workskin .opacity20 {
+  opacity: 20%;
+}
+
+#workskin .opacity10 {
+  opacity: 10%;
+}
+
+#workskin .vertical {
+  writing-mode: vertical-rl;
+}
+
+#workskin .mirror {
+  display: inline-block;
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+}
+
+#workskin .upsidedown {
+  display: block;
+  transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+}
+
+#workskin .overlappingtexttop {
+  position: relative;
+}
+
+#workskin .overlappingtextbottom {
+  position: absolute;
+  opacity: 15%;
+  bottom: -9px;
+  left: 20px;
+}
+
+#workskin .overlappingtextbelow {
+  position: absolute;
+  opacity: 15%;
+  bottom: -30px;
+  left: 20px;
+}
+
+#workskin .overlappingtextsquish {
+  position: absolute;
+  opacity: 15%;
+  bottom: -6px;
+  left: 4px;
+}
+
+#workskin .tiltcon {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 5em;
+  position: relative;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#workskin .tilt-L {
+  transform: rotate(-30deg);
+  text-align: right;
+  padding-right: 2em;
+  position: absolute;
+  right: 0px;
+}
+
+#workskin .tilt-R {
+  transform: rotate(30deg);
+  padding-left: 2em;
+  position: absolute;
+}
+
+#workskin hr.custom {
+  height: 5px;
+  width: 100%;
+  border: 0;
+  margin: 15px 0;
+}
+
+#workskin hr.rainbow {
+  background: linear-gradient(to right, #ff0000, #FFA500, #FFFF00, #00FF00, #00FFFF, #4169E1, #8A2BE2, #511c75);
+}
+
+#workskin .rainbow {
+  letter-spacing: 0.01em;
+  background-image: linear-gradient(to right, #ff0707, #ffc107, #009688, #673ab7, #e91e63);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#workskin CHAPTER TITLES ################################## {
+  color: INHERIT;
+}
+
+#workskin .chapter {
+  overflow-x: hidden !important;
+}
+
+#workskin .chapter.preface.group .title {
+  visibility: hidden;
+  line-height: 0;
+}
+
+#workskin #chapter-7 .chapter.preface.group .title::after {
+  content: "Beginning";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-8 .chapter.preface.group .title::after {
+  content: "Investigate Edwards Cell";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-9 .chapter.preface.group .title::after {
+  content: "Review Camera Footage";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-10 .chapter.preface.group .title::after {
+  content: "Interrogate Arkham Guards";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-11 .chapter.preface.group .title::after {
+  content: "Talk To Edwards Therapist";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-12 .chapter.preface.group .title::after {
+  content: "Arkham Emails";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-13 .chapter.preface.group .title::after {
+  content: "Hideout";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-20 .chapter.preface.group .title::after {
+  content: "Gotham Cathedral";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-21 .chapter.preface.group .title::after {
+  content: "Arkham Asylum";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-22 .chapter.preface.group .title::after {
+  content: "This is a Time Waster";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-23 .chapter.preface.group .title::after {
+  content: "Orphanage";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-24 .chapter.preface.group .title::after {
+  content: "Robinson Park";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-25 .chapter.preface.group .title::after {
+  content: "The Docks";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-26 .chapter.preface.group .title::after {
+  content: "Old Tunnel System";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-27 .chapter.preface.group .title::after {
+  content: "Answer";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-28 .chapter.preface.group .title::after {
+  content: "Rataalada.com/Locked";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-29 .chapter.preface.group .title::after {
+  content: "Two Minutes";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin #chapter-30 .chapter.preface.group .title::after {
+  content: "Rataalada.com/Unlocked";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+}
+
+#workskin STICKY NOTE ################################## {
+  color: INHERIT;
+}
+
+#workskin .sticky {
+  display: block;
+  background-color: #ffff99;
+  color: #000000;
+  text-decoration: none;
+  font-family: "Comic Sans MS", "Chalkboard SE", sans-serif;
+  height: 10em;
+  width: 10em;
+  padding: 1em;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-box-shadow: 5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+
+#workskin NOTEPAPER ################################## {
+  color: INHERIT;
+}
+
+#workskin tr:hover,
+#workskin td:hover {
+  background: none;
+}
+
+#workskin .paper {
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(to bottom,#FFFFFF 24px,#00b0d7 1px);
+  margin: 10px auto;
+  background-size: 100% 25px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  -moz-box-shadow: 3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  -ms-box-shadow: 3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  -o-box-shadow: 3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  box-shadow: 3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+}
+
+#workskin .paper::before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 10%;
+  height: 100%;
+  width: 1px;
+  background: #db4034;
+}
+
+#workskin .header {
+  height: 80px;
+  width: 100%;
+  background: #FFFFFF;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+}
+
+#workskin .titletext {
+  font-size: 25px;
+  line-height: 15px;
+  padding-left: 0;
+  text-align: center;
+  margin-left: 8%;
+  margin-top: 84px;
+  margin-bottom: 15px;
+  color: #000000;
+  font-weight: bold;
+  font-family: Bradley Hand, segoe script, Lucida Handwriting, cursive, sans-serif;
+}
+
+#workskin .textwmar {
+  margin-left: 11%;
+  margin-top: 100px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  font-family: Bradley Hand, segoe script, Lucida Handwriting, cursive, sans-serif;
+}
+
+#workskin EMAIL BY LA_TEMPPERANZA ################################## {
+  color: INHERIT;
+}
+
+#workskin .windowe {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#workskin .topbare {
+  background-color: #404040;
+  color: #FFFFFF;
+  border-color: #404040;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 66%;
+  padding: 2px;
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+#workskin .topbare:before {
+  content: 'Email';
+  display: inline-block;
+  position: relative;
+  float: left;
+  font-weight: bold;
+  padding: 0 3px;
+  width: 85%;
+}
+
+#workskin .topbare:after {
+  content: ' _ X';
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  padding-right: 5px;
+  float: right;
+  color: #cfcfcf;
+  -webkit-transform: scale(1.5, 1.0);
+  -moz-transform: scale(1.5, 1.0);
+  -ms-transform: scale(1.5, 1.0);
+  -o-transform: scale(1.5, 1.0);
+  transform: scale(1.5,1.0);
+  cursor: pointer;
+}
+
+#workskin .textfield {
+  border-color: #cfcfcf;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 66%;
+  padding: 2px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+#workskin .ebody {
+  width: 66%;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: justify;
+  color: #000000;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  display: block;
+  height: 250px;
+  border-color: #cfcfcf;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#workskin .ebody::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#workskin .ebody::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+
+#workskin .ebody::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+#workskin .ebody::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+#workskin .ebody::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+#workskin .buttonbar {
+  border-color: #cfcfcf;
+  background-color: #f5f5f5;
+  color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 66%;
+  padding: 2px;
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+#workskin .buttonbar:after {
+  content: 'Reply | Forward | Delete';
+  display: inline-block;
+  position: relative;
+  float: left;
+  padding: 0 3px;
+  cursor: pointer;
+}
+
+#workskin BLACKLIGHT ################################## {
+  color: INHERIT;
+}
+
+#workskin .opacity5 {
+  transition: 2s;
+  opacity: 5%;
+}
+
+#workskin .opacity5:hover {
+  opacity: 5;
+  transition: opacity 3s;
+}
+
+#workskin .blueglow {
+  transition: 1s;
+  opacity: 0%;
+}
+
+#workskin .blueglow:hover {
+  color: #9D4EDD;
+  opacity: 100%;
+  transition: opacity .5s;
+}
+
+#workskin .greenglow {
+  transition: 1s;
+  opacity: 2%;
+}
+
+#workskin .greenglow:hover {
+  color: #65c162;
+  opacity: 90%;
+  transition: opacity .5s;
+}
+
+#workskin FAKE AO3 NOTES AND CHAPTER END ################################## {
+  color: INHERIT;
+}
+
+#workskin .anh {
+  border: none;
+  padding: 0em 3em;
+}
+
+#workskin .anh:after {
+  content: ' ';
+  display: block;
+  border-top: 1px solid #2a2a2a;
+  border-bottom: none;
+}
+
+#workskin .fakenotes {
+  padding: 0em 4.5em;
+  margin-top: 0px;
+}
+
+#workskin .bline {
+  text-align: right;
+}
+
+#workskin a.button {
+  border-radius: 4px;
+  border: 1px solid #BBBBBB;
+  margin: 4px 2px;
+  background: linear-gradient(#FFFFFF, #dbdbdb);
+  box-shadow: inset 0px -1px #c9c9c9;
+  color: #2a2a2a;
+  padding: 2px;
+  display: inline-block;
+}
+
+#workskin a.button:hover {
+  color: #990000;
+  box-shadow: inset 2px 2px 2px #c9c9c9;
+}
+
+#workskin .topb:before {
+  content: "↑ Top";
+  padding: 8px 10px;
+  font-size: .95em;
+}
+
+#workskin .kudosb:before {
+  content: "Kudos ♥";
+  padding: 8px 10px;
+  font-size: .95em;
+}
+
+#workskin .bookmarkb:before {
+  content: "Bookmark";
+  padding: 8px 10px;
+  font-size: .95em;
+}
+
+#workskin .commentsb:before {
+  content: "Comments (2)";
+  padding: 8px 10px;
+  font-size: .95em;
+}
+
+#workskin TABS ################################## {
+  color: INHERIT;
+}
+
+#workskin .tabbed {
+  display: none;
+  padding-top: 150px;
+  top: -150px;
+  position: absolute;
+}
+
+#workskin .tabbed:target {
+  display: inline;
+  text-decoration: none;
+  border: none;
+}
+
+#workskin .tab {
+  padding: 3px;
+  border: thin solid black;
+  position: relative;
+  z-index: 2;
+}
+
+#workskin .displaybox {
+  border: thin solid black;
+  width: 100%;
+  height: 100%
+  min-height: 2em;
+  position: relative;
+}
+
+#workskin TOOLTIP ################################## {
+  color: INHERIT;
+}
+
+#workskin .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+#workskin .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  margin-left: -20px;
+  background-color: #f0f1f0;
+  color: #000;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 99999;
+  bottom: 100%;
+  left: 50%;
+  overflow-wrap: break-word;
+  box-shadow: 1px 1px 2px 0px #8a1b10;
+  -webkit-box-shadow: 1px 1px 2px 0px #8a1b10;
+  -moz-box-shadow: 1px 1px 2px 0px #8a1b10;
+  -o-box-shadow: 1px 1px 2px 0px #8a1b10;
+  -ms-box-shadow: 1px 1px 2px 0px #8a1b10;
+}
+
+#workskin .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#workskin .tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #f0f1f0 transparent transparent transparent;
+}
+
+#workskin PINCODE FROM INFINITYWRAITH ################################## {
+  color: INHERIT;
+}
+
+#workskin START PINCODE {
+  color: BLACK;
+}
+
+#workskin .gtfo_bumper {
+  height: 500px;
+}
+
+#workskin .pincode_padding {
+  height: 90px;
+  position: relative;
+}
+
+#workskin .pincode_main_container {
+  margin: auto;
+  padding: 5px;
+  max-width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow: hidden;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  font-size: 0px;
+}
+
+#workskin .pincode_rim_container {
+  margin: auto;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 275px;
+  max-width: 100%;
+  height: 375px;
+  max-height: 100%;
+  background: linear-gradient(115deg, rgba(17,17,17,1) 13%, rgba(17,17,17,1) 32%, rgba(37,37,37,1) 40%, rgba(48,50,50,1) 43%, rgba(49,49,49,1) 49%, rgba(37,37,37,1) 62%, rgba(27,27,27,1) 77%), BLACK;
+  border: double rgb(17 17 17) 5px;
+  border-radius: 15%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: #00000020 -3px 1px 2px;
+}
+
+#workskin .pincode_face_container {
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(112deg, rgba(13,13,13,1) 2%, rgba(13,13,13,1) 17%, rgba(9,9,9,1) 27%, rgba(28,28,28,1) 51%, rgba(21,21,21,1) 69%, rgba(14,14,14,1) 77%), BLACK;
+  border: double rgb(17 17 17) 6px;
+  border-radius: 20%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#workskin .pincode_button_container {
+  text-align: center;
+  padding: 15px;
+  border: solid #313131 1.5px;
+  border-radius: 13%;
+  height: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  transition-delay: 3s;
+  transition: .5s;
+}
+
+#workskin .pincode_button_header {
+  position: relative;
+  margin-bottom: 10px;
+  padding-top: 5%;
+  height: 20%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: solid #313131 1.5px;
+  border-radius: 5%;
+  background: linear-gradient(0deg, rgb(31 41 28) 0%, rgba(14,14,14,0) 70%);
+  text-align: center;
+  color: gray;
+  transition: background .4s;
+}
+
+#workskin .pincode_button_container:active .text {
+  color: white;
+  transition: .3s;
+}
+
+#workskin .textpin {
+  font-size: 30px;
+  transition-delay: .5s;
+  transition: .5s;
+}
+
+#workskin .pincode_button_row {
+  position: relative;
+  padding: 1px;
+  height: 19%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#workskin .pincode_buttons {
+  margin: 1px;
+  width: 33%;
+  max-width: 30%;
+  display: inline-block;
+  padding-top: 3%;
+  height: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+  border: solid #313131 1.5px;
+  border-radius: 10%;
+  transition: .2s;
+}
+
+#workskin .pincode_buttons a {
+  font-family: courier, monospace;
+  font-size: 28px;
+  color: gray;
+  border-bottom: none;
+  outline: none;
+}
+
+#workskin .pincode_buttons a:active {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+#workskin .pincode_buttons a:visited {
+  color: gray;
+}
+
+#workskin .pincode_buttons a:visited:hover,
+#workskin .pincode_buttons a:hover {
+  color: white;
+}
+
+#workskin .pincode_answer_container {
+  width: 100%;
+  height: 100%;
+  font-size: initial;
+  overflow-x: hidden;
+  user-select: text;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -o-user-select: text;
+  padding-right: 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#workskin CHESS FROM JNSN ################################## {
+  color: INHERIT;
+}
+
+#workskin .chess-container {
+  width: max-content;
+  margin: 0 auto;
+}
+
+#workskin .chess-board {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  border: none;
+  display: block;
+  background-color: #e5d3b3;
+  background-image: linear-gradient(45deg, #98633b 25%, transparent 25%, transparent 75%, #98633b 75%), linear-gradient(45deg, #98633b 25%, #e5d3b3 25%, #e5d3b3 75%, #98633b 75%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+#workskin .at-col-B {
+  left: 30px;
+}
+
+#workskin .at-col-C {
+  left: 60px;
+}
+
+#workskin .at-col-D {
+  left: 90px;
+}
+
+#workskin .at-col-E {
+  left: 120px;
+}
+
+#workskin .at-col-F {
+  left: 150px;
+}
+
+#workskin .at-col-G {
+  left: 180px;
+}
+
+#workskin .at-col-H {
+  left: 210px;
+}
+
+#workskin .at-row-7 {
+  top: 30px;
+}
+
+#workskin .at-row-6 {
+  top: 60px;
+}
+
+#workskin .at-row-5 {
+  top: 90px;
+}
+
+#workskin .at-row-4 {
+  top: 120px;
+}
+
+#workskin .at-row-3 {
+  top: 150px;
+}
+
+#workskin .at-row-2 {
+  top: 180px;
+}
+
+#workskin .at-row-1 {
+  top: 210px;
+}
+
+#workskin .chess-board-hover {
+  position: absolute;
+  height: 240px;
+  width: 240px;
+  padding: 0;
+  margin: 0;
+  text-indent: 0;
+  z-index: 10;
+}
+
+#workskin .move1,
+#workskin .move2,
+#workskin .move3,
+#workskin .move4,
+#workskin .move5 #workskin .move6 #workskin .move7 #workskin .move8 #workskin .move9 #workskin .move10 {
+  transform: translate(0, 0);
+  transition: 1s;
+}
+
+#workskin .chess-board-hover:hover ~ .move1 {
+  transform: translate(120px, 0);
+  transition: 1.3s;
+}
+
+#workskin .chess-board-hover:hover ~ .move2 {
+  transform: translate(0, 210px);
+  transition: 1.3s;
+  transition-delay: 1.5s;
+}
+
+#workskin .chess-board-hover:hover ~ .move3 {
+  transform: translate(0, -30px);
+  transition: 1.3s;
+  transition-delay: 3s;
+}
+
+#workskin .chess-board-hover:hover ~ .move4 {
+  transform: translate(-30px, 30px);
+  transition: 1.3s;
+  transition-delay: 4.5s;
+}
+
+#workskin .chess-board-hover:hover ~ .move5 {
+  transform: translate(30px, -60px);
+  transition: 1.3s;
+  transition-delay: 6s;
+}
+
+#workskin .chess-board-hover:hover ~ .move6 {
+  transform: translate(-30px, 60px);
+  transition: 1.3s;
+  transition-delay: 7.5s;
+}
+
+#workskin .chess-board-hover:hover ~ .move7 {
+  transform: translate(120px, -120px);
+  transition: 1.3s;
+  transition-delay: 9s;
+}
+
+#workskin .chess-board-hover:hover ~ .move8 {
+  transform: translate(0px, 30px);
+  transition: 1.3s;
+  transition-delay: 10.5s;
+}
+
+#workskin .chess-board-hover:hover ~ .move9 {
+  transform: translate(0px, -30px);
+  transition: 1.3s;
+  transition-delay: 12s;
+}
+
+#workskin .chess-board-hover:hover ~ .move10 {
+  transform: translate(60px, 60px);
+  transition: 1.3s;
+  transition-delay: 13.5s;
+}
+
+#workskin .black-pawn {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  content: url("https://chessboardjs.com/img/chesspieces/wikipedia/bP.png");
+  background-size: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#workskin .black-rook {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  content: url("https://chessboardjs.com/img/chesspieces/wikipedia/bR.png");
+  background-size: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#workskin .black-knight {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  content: url("https://chessboardjs.com/img/chesspieces/wikipedia/bN.png");
+  background-size: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#workskin .black-bishop {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  content: url("https://chessboardjs.com/img/chesspieces/wikipedia/bB.png");
+  background-size: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#workskin .black-queen {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  content: url("https://chessboardjs.com/img/chesspieces/wikipedia/bQ.png");
+  background-size: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#workskin .black-king {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  content: url("https://chessboardjs.com/img/chesspieces/wikipedia/bK.png");
+  background-size: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#workskin .white-pawn {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  content: url("https://chessboardjs.com/img/chesspieces/wikipedia/wP.png");
+  background-size: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#workskin .white-rook {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  content: url("https://chessboardjs.com/img/chesspieces/wikipedia/wR.png");
+  background-size: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#workskin .white-knight {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  content: url("https://chessboardjs.com/img/chesspieces/wikipedia/wN.png");
+  background-size: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#workskin .white-bishop {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  content: url("https://chessboardjs.com/img/chesspieces/wikipedia/wB.png");
+  background-size: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#workskin .white-queen {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  content: url("https://chessboardjs.com/img/chesspieces/wikipedia/wQ.png");
+  background-size: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#workskin .white-king {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  content: url("https://chessboardjs.com/img/chesspieces/wikipedia/wK.png");
+  background-size: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#workskin CYOA REVEAL CHOICES FROM MYSTYRUST ################################## {
+  color: INHERIT;
+}
+
+#workskin .fic-spoiler summary,
+#workskin .fic-body summary {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+#workskin details.fic-steps[open] > summary,
+#workskin .fic-spoiler details > summary::-webkit-details-marker,
+#workskin .fic-spoiler details > summary::marker,
+#workskin .fic-body details > summary::-webkit-details-marker,
+#workskin .fic-body details > summary::marker {
+  display: none;
+}
+
+#workskin .fic-steps,
+#workskin .steps-result,
+#workskin:has(details.fic-spoiler[open]) .fic-steps {
+  display: none;
+}
+
+#workskin:has(details.fic-spoiler[open]) .steps-result {
+  display: block;
+}
+
+#workskin details.fic-steps.step1,
+#workskin details.step1[open] ~ .steps-result.step1,
+#workskin details.step1[open] ~ .fic-steps.step2,
+#workskin details.step2[open] ~ .steps-result.step2,
+#workskin details.step2[open] ~ .fic-steps.step3,
+#workskin details.step3[open] ~ .steps-result.step3,
+#workskin details.step3[open] ~ .fic-steps.step4,
+#workskin details.step4[open] ~ .steps-result.step4,
+#workskin details.step4[open] ~ .fic-steps.step5,
+#workskin details.step5[open] ~ .steps-result.step5,
+#workskin details.step5[open] ~ .fic-steps.step6,
+#workskin details.step6[open] ~ .steps-result.step6,
+#workskin details.step6[open] ~ .fic-steps.step7,
+#workskin details.step7[open] ~ .steps-result.step7,
+#workskin details.step7[open] ~ .fic-steps.step8,
+#workskin details.step8[open] ~ .steps-result.step8,
+#workskin details.step8[open] ~ .fic-steps.step9,
+#workskin details.step9[open] ~ .steps-result.step9,
+#workskin details.step9[open] ~ .fic-steps.step10,
+#workskin details.step10[open] ~ .steps-result.step10,
+#workskin details.step10[open] ~ .fic-steps.step11,
+#workskin details.step11[open] ~ .steps-result.step11,
+#workskin details.step11[open] ~ .fic-steps.step12,
+#workskin details.step12[open] ~ .steps-result.step12,
+#workskin details.step12[open] ~ .fic-steps.step13,
+#workskin details.step13[open] ~ .steps-result.step13,
+#workskin details.step13[open] ~ .fic-steps.step14,
+#workskin details.step14[open] ~ .steps-result.step14,
+#workskin details.step14[open] ~ .fic-steps.step15,
+#workskin details.step15[open] ~ .steps-result.step15,
+#workskin details.step15[open] ~ .fic-steps.step16,
+#workskin details.step16[open] ~ .steps-result.step16,
+#workskin details.step16[open] ~ .fic-steps.step17,
+#workskin details.step17[open] ~ .steps-result.step17,
+#workskin details.step17[open] ~ .fic-steps.step18,
+#workskin details.step18[open] ~ .steps-result.step18,
+#workskin details.step18[open] ~ .fic-steps.step19,
+#workskin details.step19[open] ~ .steps-result.step19,
+#workskin details.step19[open] ~ .fic-steps.step20,
+#workskin details.step20[open] ~ .steps-result.step20,
+#workskin details.step20[open] ~ .fic-steps.step21,
+#workskin details.step21[open] ~ .steps-result.step21,
+#workskin details.step21[open] ~ .fic-steps.step22,
+#workskin details.step22[open] ~ .steps-result.step22,
+#workskin details.step22[open] ~ .fic-steps.step23,
+#workskin details.step23[open] ~ .steps-result.step23,
+#workskin details.step23[open] ~ .fic-steps.step24,
+#workskin details.step24[open] ~ .steps-result.step24,
+#workskin details.step24[open] ~ .fic-steps.step25,
+#workskin details.step25[open] ~ .steps-result.step25,
+#workskin details.step25[open] ~ .fic-steps.step26,
+#workskin details.step26[open] ~ .steps-result.step26,
+#workskin details.step26[open] ~ .fic-steps.step27,
+#workskin details.step27[open] ~ .steps-result.step27,
+#workskin details.step27[open] ~ .fic-steps.step28,
+#workskin details.step28[open] ~ .steps-result.step28,
+#workskin details.step28[open] ~ .fic-steps.step29 {
+  display: block;
+}
+
+#workskin ~ #feedback {
+  display: none;
+}
+
+#workskin div.inline {
+  display: inline-block;
+}
+
+#workskin div.inline p {
+  display: inline;
+}
+
+#workskin details.fic-spoiler {
+  margin: 0px;
+  display: inline;
+}
+
+#workskin .fic-spoiler summary {
+  cursor: text;
+}
+
+#workskin:has(details.fic-steps[open]) .fic-spoiler summary {
+  cursor: pointer !important;
+}
+
+#workskin .endnotes-div {
+  display: none;
+}
+
+#workskin:has(details.step1:not([open])) .step0-endnotes,
+#workskin:has(details.step1[open]):has(details.step2:not([open])) .step1-endnotes,
+#workskin:has(details.step2[open]):has(details.step3:not([open])) .step2-endnotes,
+#workskin:has(details.step3[open]):has(details.step4:not([open])) .step3-endnotes,
+#workskin:has(details.step4[open]):has(details.step5:not([open])) .step4-endnotes,
+#workskin:has(details.step5[open]):has(details.step6:not([open])) .step5-endnotes,
+#workskin:has(details.step6[open]):has(details.step7:not([open])) .step6-endnotes,
+#workskin:has(details.step7[open]):has(details.step8:not([open])) .step7-endnotes,
+#workskin:has(details.step8[open]):has(details.step9:not([open])) .step8-endnotes,
+#workskin:has(details.step9[open]):has(details.step10:not([open])) .step9-endnotes,
+#workskin:has(details.step10[open]):has(details.step11:not([open])) .step10-endnotes,
+#workskin:has(details.step11[open]):has(details.step12:not([open])) .step11-endnotes,
+#workskin:has(details.step12[open]):has(details.step13:not([open])) .step12-endnotes,
+#workskin:has(details.step13[open]):has(details.step14:not([open])) .step13-endnotes,
+#workskin:has(details.step14[open]):has(details.step15:not([open])) .step14-endnotes,
+#workskin:has(details.step15[open]):has(details.step16:not([open])) .step15-endnotes,
+#workskin:has(details.step17[open]):has(details.step18:not([open])) .step17-endnotes,
+#workskin:has(details.step18[open]):has(details.step19:not([open])) .step18-endnotes,
+#workskin:has(details.step23[open]):has(details.step24:not([open])) .step23-endnotes,
+#workskin:has(details.step27[open]):has(details.step28:not([open])) .step27-endnotes {
+  display: block;
+}
+
+#workskin:has(details.fic-spoiler[open]) .endnotes-div:not(.step27-endnotes) {
+  display: none !important;
+}
+
+#workskin:has(details.step16[open]):has(details.step17:not([open])) .afterword.preface.group,
+#workskin:has(details.step19[open]):has(details.step20:not([open])) .afterword.preface.group,
+#workskin:has(details.step20[open]):has(details.step21:not([open])) .afterword.preface.group,
+#workskin:has(details.step21[open]):has(details.step22:not([open])) .afterword.preface.group,
+#workskin:has(details.step22[open]):has(details.step23:not([open])) .afterword.preface.group,
+#workskin:has(details.step24[open]):has(details.step25:not([open])) .afterword.preface.group,
+#workskin:has(details.step25[open]):has(details.step26:not([open])) .afterword.preface.group,
+#workskin:has(details.step26[open]):has(details.step27:not([open])) .afterword.preface.group {
+  display: none;
+}
+
+#workskin:has(details.fic-spoiler[open]) #work_endnotes,
+#workskin:has(details.fic-spoiler[open]) .step27-endnotes,
+#workskin:has(details.fic-spoiler[open]) ~ #feedback,
+#workskin:has(details.step27[open]) #work_endnotes,
+#workskin:has(details.step27[open]) .step27-endnotes,
+#workskin:has(details.step27[open]) ~ #feedback {
+  display: block;
+}
+
+#workskin IDK what these are or where they go.. oops ################################## {
+  color: INHERIT;
+}
+
+#workskin * {
+  box-sizing: border-box;
+}
+
+#workskin .red {
+  color: #d33;
+}
+
+#workskin .green {
+  color: #3c3;
+}
+
+#workskin .blue {
+  color: #33d;
+}
+
+#workskin .yellow {
+  color: #fc0;
+}
+
+#workskin .page,
+#workskin .page-flex {
+  width: 80%;
+  min-width: 250px;
+  max-width: 600px;
+  margin: 2em auto;
+  text-align: center;
+}
+
+#workskin .page-flex {
+  display: table;
+}
+
+#workskin .page:after,
+#workskin .page-flex:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#workskin .doogle-front-logo {
+  font-size: 5em;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  margin: 0 auto 0.5em;
+}
+
+#workskin .doogle-front-search-bar,
+#workskin .doogle-front-search-sugg,
+#workskin .doogle-front-search-auto {
+  width: 80%;
+  font-size: 1em;
+  font-family: sans-serif;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  color: #333;
+}
+
+#workskin .doogle-front-search-bar {
+  color: #ccc;
+  border: 2px solid #bbb;
+  border-radius: 1em;
+  margin: 0 auto 0.5em;
+}
+
+#workskin .doogle-front-search-bar:hover {
+  box-shadow: 0 2px 3px #bbb, 0 2px 5px #ddd;
+}
+
+#workskin .doogle-button {
+  font-family: sans-serif;
+  font-size: 0.9em;
+  background-color: #eee;
+  color: #555;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+#workskin .doogle-button:hover {
+  color: #333;
+  background-image: linear-gradient(#fafafa, #eee);
+  border: 1px solid #666;
+  box-shadow: 0px 1px 2px #ccc;
+}
+
+#workskin .doogle-button:active {
+  position: relative;
+  border-color: #00d;
+  top: 2px;
+  box-shadow: -1px -1px 2px #ccc;
+}
+
+#workskin .doogle-front-search-sugg {
+  border: 2px solid #bbb;
+  border-bottom: none;
+  border-radius: 1em 1em 0 0;
+}
+
+#workskin .doogle-front-search-auto {
+  line-height: 1.5em;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  border: 2px solid #bbb;
+  border-top: 1px solid #ccc;
+  border-radius: 0 0 1em 1em;
+}
+
+#workskin .doogle-results-left {
+  display: table-cell;
+  float: left;
+  width: 8em;
+}
+
+#workskin .doogle-results-right {
+  display: table-cell;
+  text-align: left;
+  font-family: sans-serif;
+  color: #333;
+}
+
+#workskin .doogle-results-logo {
+  font-size: 2em;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  margin: 0 1em 0 0;
+  text-align: left;
+  float: left;
+}
+
+#workskin .doogle-results-search {
+  width: 100%;
+  font-size: 1em;
+  margin: 0.5em auto;
+  padding: 0.5em 1em;
+  border: 2px solid #bbb;
+  border-radius: 1em;
+}
+
+#workskin .doogle-results-stats {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #555;
+}
+
+#workskin .doogle-results-c {
+  margin-bottom: 1.5em;
+  color: #333;
+}
+
+#workskin .doogle-results-bread {
+  font-size: 0.8em;
+}
+
+#workskin .doogle-results-bread::after {
+  position: relative;
+  width: 0;
+  height: 0;
+  top: 0.7em;
+  left: 0.5em;
+  border-top: 5px solid #333;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  content: "";
+}
+
+#workskin .doogle-results-title {
+  font-size: 1.2em;
+  color: #21a;
+  margin: -0.4em 0;
+}
+
+#workskin .doogle-results-title:hover {
+  text-decoration: underline;
+}
+
+#workskin .doogle-results-blurb {
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+#workskin .doogle-results-date {
+  color: #777;
+}
+
+#workskin .dwitter-post {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  transition: background-color 0.2s;
+  border-radius: 15px;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+#workskin .dwitter-post:hover {
+  background-color: #f5f7fc;
+}
+
+#workskin .dwitter-head:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#workskin .dwitter-profile-pic {
+  float: left;
+  margin: 0.5em 0 0;
+}
+
+#workskin .dwitter-profile-pic img {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+#workskin .dwitter-embed .dwitter-profile-pic img {
+  height: 25px;
+  width: 25px;
+}
+
+#workskin .dwitter-id {
+  float: left;
+  padding: 0.5em 0 0 0.5em;
+  font-weight: bold;
+}
+
+#workskin .dwitter-embed .dwitter-id {
+  padding: 0 0 0 0.5em;
+}
+
+#workskin .dwitter-handle {
+  position: relative;
+  color: #666;
+  font-weight: normal;
+}
+
+#workskin .dwitter-dweet {
+  font-size: 1.2em;
+  margin: 0.2em 0 1em 0;
+  line-height: 1.3em;
+}
+
+#workskin .dwitter-embed .dwitter-dweet {
+  font-size: 1em;
+}
+
+#workskin .dwitter-date {
+  color: #666;
+  margin: 0.5em 0;
+}
+
+#workskin .dwitter-post hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+#workskin .dwitter-likes,
+#workskin .dwitter-redweets {
+  margin-right: 1em;
+  padding: 5px;
+  border-radius: 10px;
+  color: #666;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+#workskin .dwitter-likes:hover {
+  color: #d35;
+  background-color: #fee;
+}
+
+#workskin .dwitter-redweets:hover {
+  color: #35f;
+  background-color: #eef;
+}
+
+#workskin .dumblr-post {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+#workskin .dumblr-id {
+  display: table-row;
+}
+
+#workskin .dumblr-id:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#workskin .dumblr-profile-pic {
+  float: left;
+  height: 25px;
+  width: 25px;
+}
+
+#workskin .dumblr-handle {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  padding: 0 1em;
+  font-weight: bold;
+}
+
+#workskin .dumblr-title {
+  font-size: 1.8em;
+}
+
+#workskin .dumblr-text {
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+#workskin .dumblr-tags span,
+#workskin .dumblr-stats span,
+#workskin .dumblr-buttons span {
+  display: inline-block;
+  margin-right: 15px;
+  color: #888;
+}
+
+#workskin #dumblr-heart {
+  margin-right: 0;
+}
+
+#workskin .dumblr-tags span:hover,
+#workskin .dumblr-stats span:hover,
+#workskin .dumblr-buttons span:hover {
+  color: #666;
+}
+
+#workskin .dumblr-foot {
+  width: 100%;
+  display: table;
+}
+
+#workskin .dumblr-stats {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#workskin .dumblr-buttons {
+  font-size: 2em;
+  line-height: 1;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+
+#workskin .dumblr-foot:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#workskin .story-c {
+  padding: 1em;
+}
+
+#workskin .story-page {
+  display: none;
+}
+
+#workskin .story-link:target + .story-page {
+  display: block;
+}
+
+#workskin .storycontainer {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  height: 1000px;
+  margin-bottom: 50px;
+}
+
+#workskin .page {
+  margin-top: 25px;
+  height: 1000px;
+  overflow-y: auto;
+}
+
+#workskin .page::-webkit-scrollbar {
+  -webkit-appearance: none;
+  display: none;
+}
+
+#workskin .page::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+
+#workskin .page::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+#workskin .page::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+#workskin .page::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+#workskin WORKING CLOCK ################################## {
+  color: INHERIT;
+}
+
+#workskin .clock-c {
+  visibility: hidden;
+}
+
+#workskin a:target + .clock-c {
+  visibility: visible;
+}
+
+#workskin .clock {
+  display: table;
+  margin: 0 auto;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #eee;
+  box-shadow: 2px 4px 10px -1px #bbb;
+}
+
+#workskin .clock:after {
+  background: #222;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 48%;
+  top: 48%;
+  width: 4%;
+  height: 4%;
+  z-index: 10;
+}
+
+#workskin .clock-mark,
+#workskin .clock-mark-t {
+  position: absolute;
+  z-index: 0;
+}
+
+#workskin .clock-mark {
+  width: 1%;
+  height: 4%;
+  top: 49%;
+  left: 49.5%;
+  border-radius: 6px;
+  background-color: #999;
+  transform-origin: 50% 25%;
+}
+
+#workskin .clock-mark-t {
+  width: 2%;
+  height: 8%;
+  top: 49%;
+  left: 49%;
+  border-radius: 6px;
+  background-color: #999;
+  transform-origin: 50% 12.5%;
+}
+
+#workskin .clock-mark1 {
+  transform: rotate(30deg) translateY(-140px);
+}
+
+#workskin .clock-mark2 {
+  transform: rotate(60deg) translateY(-140px);
+}
+
+#workskin .clock-mark3 {
+  transform: rotate(90deg) translateY(-140px);
+}
+
+#workskin .clock-mark4 {
+  transform: rotate(120deg) translateY(-140px);
+}
+
+#workskin .clock-mark5 {
+  transform: rotate(150deg) translateY(-140px);
+}
+
+#workskin .clock-mark6 {
+  transform: rotate(180deg) translateY(-140px);
+}
+
+#workskin .clock-mark7 {
+  transform: rotate(210deg) translateY(-140px);
+}
+
+#workskin .clock-mark8 {
+  transform: rotate(240deg) translateY(-140px);
+}
+
+#workskin .clock-mark9 {
+  transform: rotate(270deg) translateY(-140px);
+}
+
+#workskin .clock-mark10 {
+  transform: rotate(300deg) translateY(-140px);
+}
+
+#workskin .clock-mark11 {
+  transform: rotate(330deg) translateY(-140px);
+}
+
+#workskin .clock-mark12 {
+  transform: translateY(-140px);
+}
+
+#workskin a:target ~ .clock-c .clock-hm {
+  transform: rotate(49945deg);
+}
+
+#workskin a:target ~ .clock-c .clock-mm {
+  transform: rotate(600060deg);
+}
+
+#workskin a:target ~ .clock-c .clock-sm {
+  transform: rotate(36000000deg);
+}
+
+#workskin a:target ~ .clock-c .clock-hr {
+  transform: rotate(-50055deg);
+}
+
+#workskin a:target ~ .clock-c .clock-mr {
+  transform: rotate(-599940deg);
+}
+
+#workskin a:target ~ .clock-c .clock-sr {
+  transform: rotate(-36000000deg);
+}
+
+#workskin .clock-hc,
+#workskin .clock-mc,
+#workskin .clock-sc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#workskin .clock-h,
+#workskin .clock-m,
+#workskin .clock-s {
+  transition: transform 6000000s linear;
+}
+
+#workskin .clock-h {
+  background-color: #444;
+  position: absolute;
+  height: 24%;
+  width: 2%;
+  left: 49%;
+  top: 26%;
+  border-radius: 6px;
+  transform-origin: 50% 100%;
+  transform: rotate(-55deg);
+}
+
+#workskin .clock-m {
+  background-color: #444;
+  position: absolute;
+  height: 40%;
+  width: 2%;
+  left: 49%;
+  top: 10%;
+  border-radius: 6px;
+  transform-origin: 50% 100%;
+  transform: rotate(60deg);
+}
+
+#workskin .clock-s {
+  background-color: #b00;
+  position: absolute;
+  height: 50%;
+  width: 1%;
+  left: 49.5%;
+  top: 5%;
+  border-radius: 3px;
+  transform-origin: 50% 90%;
+}
+
+#workskin .solid-c {
+  margin: 0 auto;
+  height: 360px;
+  width: 360px;
+}
+
+#workskin .tet-face,
+#workskin .oct-face,
+#workskin .cuboct-face {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  transition: transform 1s, border-color 1s;
+  transform-origin: 0 0;
+}
+
+#workskin .tet-face {
+  border-width: 30px 30px 0 0;
+}
+
+#workskin .tet-face1 {
+  transform: translate(210px,330px) skew(45deg,-75.96deg) scale(2,-6);
+  border-color: rgba(0,0,128,15%) transparent transparent transparent;
+}
+
+#workskin .tet-face2 {
+  transform: translate(210px,330px) skew(0deg,-75.96deg) scale(2,-6);
+  border-color: rgba(128,0,128,25%) transparent transparent transparent;
+}
+
+#workskin .tet-face3 {
+  transform: translate(210px,330px) skew(0deg,45deg) scale(-6,-6);
+  border-color: rgba(0,128,128,20%) transparent transparent transparent;
+}
+
+#workskin .tet-face4 {
+  transform: translate(270px,90px) skew(-45deg,-14.04deg) scale(-8,2);
+  border-color: rgba(128,0,0,25%) transparent transparent transparent;
+}
+
+#workskin .solid-c:hover .tet-face1 {
+  transform: translate(230px,310px) skew(45deg,-75.96deg) scale(2,-6);
+}
+
+#workskin .solid-c:hover .tet-face2 {
+  transform: translate(230px,310px) skew(38.66deg,-75.96deg) scale(2,-3.333);
+  border-color: rgba(128,0,128,20%) transparent transparent transparent;
+}
+
+#workskin .solid-c:hover .tet-face3 {
+  transform: translate(230px,310px) skew(38.66deg,45deg) scale(-6,-3.333);
+  border-color: rgba(0,128,128,35%) transparent transparent transparent;
+}
+
+#workskin .solid-c:hover .tet-face4 {
+  transform: translate(290px,70px) skew(-45deg,-14.04deg) scale(-8,4.667);
+  border-color: rgba(128,0,0,20%) transparent transparent transparent;
+}
+
+#workskin .oct-face {
+  border-width: 60px 60px 0 0;
+}
+
+#workskin .oct-face1 {
+  transform: translate(240px,300px) skew(-45deg,0) scale(-3,-1);
+  border-color: rgba(0,0,128,25%) transparent transparent transparent;
+}
+
+#workskin .oct-face2 {
+  transform: translate(240px,300px) skew(45deg,-75.96deg) scale(1,-3);
+  border-color: rgba(128,0,128,15%) transparent transparent transparent;
+}
+
+#workskin .oct-face3 {
+  transform: translate(120px,60px) skew(-45deg,-75.96deg) scale(-1,1);
+  border-color: rgba(0,128,128,25%) transparent transparent transparent;
+}
+
+#workskin .oct-face4 {
+  transform: translate(120px,60px) skew(45deg,0deg) scale(3,3);
+  border-color: rgba(128,0,0,20%) transparent transparent transparent;
+}
+
+#workskin .solid-c:hover .oct-face1 {
+  transform: translate(200px,340px) skew(-45deg,38.66deg) scale(-1.667,-2.333);
+  border-color: rgba(0,0,128,20%) transparent transparent transparent;
+}
+
+#workskin .solid-c:hover .oct-face2 {
+  transform: translate(200px,340px) skew(45deg,-75.96deg) scale(1,-3);
+}
+
+#workskin .solid-c:hover .oct-face3 {
+  transform: translate(160px,20px) skew(-45deg,-75.96deg) scale(-1,2.333);
+  border-color: rgba(0,128,128,20%) transparent transparent transparent;
+}
+
+#workskin .solid-c:hover .oct-face4 {
+  transform: translate(160px,20px) skew(45deg,38.66deg) scale(1.667,3);
+  border-color: rgba(128,0,0,35%) transparent transparent transparent;
+}
+
+#workskin .cuboct-face {
+  border-width: 40px 40px 0 0;
+}
+
+#workskin .cuboct-face1 {
+  transform: translate(180px,300px) skew(-45deg,0) scale(3,1);
+  border-color: rgba(0,0,128,25%) transparent transparent transparent;
+}
+
+#workskin .cuboct-face2 {
+  transform: translate(180px,300px) skew(45deg,-75.96deg) scale(1,-3);
+  border-color: rgba(128,0,128,15%) transparent transparent transparent;
+}
+
+#workskin .cuboct-face3 {
+  transform: translate(340px,140px) skew(-45deg,-75.96deg) scale(-1,1);
+  border-color: rgba(0,128,128,25%) transparent transparent transparent;
+}
+
+#workskin .cuboct-face4 {
+  transform: translate(20px,220px) skew(45deg,0deg) scale(3,3);
+  border-color: rgba(128,0,0,20%) transparent transparent transparent;
+}
+
+#workskin .cuboct-face5 {
+  transform: translate(180px,60px) skew(-45deg,0) scale(-3,-1);
+  border-color: rgba(0,0,128,25%) transparent transparent transparent;
+}
+
+#workskin .cuboct-face6 {
+  transform: translate(180px,60px) skew(45deg,-75.96deg) scale(-1,3);
+  border-color: rgba(128,0,128,15%) transparent transparent transparent;
+}
+
+#workskin .cuboct-face7 {
+  transform: translate(20px,220px) skew(-45deg,-75.96deg) scale(1,-1);
+  border-color: rgba(0,128,128,25%) transparent transparent transparent;
+}
+
+#workskin .cuboct-face8 {
+  transform: translate(340px,140px) skew(45deg,0deg) scale(-3,-3);
+  border-color: rgba(128,0,0,20%) transparent transparent transparent;
+}
+
+#workskin .solid-c:hover .cuboct-face1 {
+  transform: translate(233.3px,246.7px) skew(-45deg,38.66deg) scale(1.667,2.333);
+  border-color: rgba(0,0,128,20%) transparent transparent transparent;
+}
+
+#workskin .solid-c:hover .cuboct-face2 {
+  transform: translate(233.3px,246.7px) skew(45deg,-75.96deg) scale(1,-3);
+}
+
+#workskin .solid-c:hover .cuboct-face3 {
+  transform: translate(340px,140px) skew(-45deg,-75.96deg) scale(-1,2.333);
+  border-color: rgba(0,128,128,20%) transparent transparent transparent;
+}
+
+#workskin .solid-c:hover .cuboct-face4 {
+  transform: translate(20px,220px) skew(45deg,38.66deg) scale(1.667,3);
+  border-color: rgba(128,0,0,35%) transparent transparent transparent;
+}
+
+#workskin .solid-c:hover .cuboct-face5 {
+  transform: translate(126.7px,113.3px) skew(-45deg,38.66deg) scale(-1.667,-2.333);
+  border-color: rgba(0,0,128,20%) transparent transparent transparent;
+}
+
+#workskin .solid-c:hover .cuboct-face6 {
+  transform: translate(126.7px,113.3px) skew(45deg,-75.96deg) scale(-1,3);
+}
+
+#workskin .solid-c:hover .cuboct-face7 {
+  transform: translate(20px,220px) skew(-45deg,-75.96deg) scale(1,-2.333);
+  border-color: rgba(0,128,128,20%) transparent transparent transparent;
+}
+
+#workskin .solid-c:hover .cuboct-face8 {
+  transform: translate(340px,140px) skew(45deg,38.66deg) scale(-1.667,-3);
+  border-color: rgba(128,0,0,35%) transparent transparent transparent;
+}
+
+#workskin WEBSITE FROM INFINITYWRAITH ################################## {
+  color: INHERIT;
+}
+
+#workskin .webcontainer {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  width: 100%;
+  height: 800px;
+  border: 1px solid black;
+  background-color: #31572C;
+  overflow: hidden;
+}
+
+#workskin .webheader {
+  position: relative;
+  display: inline-block !important;
+  width: 100%;
+  height: 115px;
+  max-height: 15%;
+  background-color: #132A13;
+  vertical-align: top;
+  top: 0px;
+}
+
+#workskin .webheaderminimize {
+  position: absolute;
+  vertical-align: top;
+  top: 0px;
+  right: 0px;
+  width: 70px;
+  height: 15px;
+}
+
+#workskin .minimize {
+  position: absolute;
+  height: 15px;
+  width: 19px;
+  top: 0px;
+  vertical-align: top;
+  border: 1px solid #8396a6;
+  border-radius: 3px;
+  background: #ADC178;
+  transition: .2s;
+}
+
+#workskin .minimize::before {
+  position: absolute;
+  vertical-align: top;
+  top: -5px;
+  right: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  content: "-" !important;
+}
+
+#workskin .minimize:hover {
+  box-shadow: inset 1px 1px 1px #a7bfd1;
+  background: #DDE5B6;
+  transition: .1s;
+}
+
+#workskin .fullscreen {
+  position: absolute;
+  height: 15px;
+  width: 19px;
+  left: 20px;
+  top: 0px;
+  vertical-align: top;
+  border: 1px solid #8396a6;
+  border-radius: 1px;
+  background: #ADC178;
+  transition: .2s;
+}
+
+#workskin .fullscreen::before {
+  position: absolute;
+  vertical-align: top;
+  top: 0px;
+  right: 5px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  content: "O" !important;
+}
+
+#workskin .fullscreen:hover {
+  box-shadow: inset 1px 1px 1px #a7bfd1;
+  background: #DDE5B6;
+  transition: .1s;
+}
+
+#workskin .close {
+  text-align: center;
+  position: absolute;
+  display: block;
+  height: 15px;
+  width: 29px;
+  vertical-align: top;
+  top: 0px;
+  right: 0;
+  border: 1px solid #8396a6;
+  border-radius: 3px;
+  background: #414833;
+  transition: .2s;
+}
+
+#workskin .close::before {
+  position: absolute;
+  vertical-align: top;
+  top: 0px;
+  right: 35%;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  content: "X" !important;
+}
+
+#workskin .close:hover {
+  background: #e03019;
+  box-shadow: inset 1px 1px 1px #d17569;
+  transition: .1s;
+}
+
+#workskin .webheadercustom {
+  position: absolute;
+  display: inline-block;
+  vertical-align: bottom;
+  bottom: 0px;
+  width: 100%;
+  height: 80px;
+  background-color: #90A955;
+}
+
+#workskin .topbar {
+  position: relative;
+  vertical-align: top;
+  top: 15px;
+  left: 1.5%;
+  font-size: 12px;
+  width: 97%;
+  height: 25px;
+}
+
+#workskin .bookmark {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: -12px;
+  left: 0px;
+  max-width: 15%;
+  height: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: black;
+  transition: .3s;
+  overflow: hidden;
+}
+
+#workskin .bookmark:hover {
+  border-radius: 30px;
+  background: #00000020;
+  text-align: center;
+  transition: .3s;
+  cursor: default;
+}
+
+#workskin .bookmarkside {
+  display: inline-block;
+  position: absolute;
+  vertical-align: top;
+  padding-left: 5px;
+  top: -3px;
+  right: 0px;
+  width: 160px;
+  height: 25px;
+  border-radius: 25px;
+  border: solid #17171700 1px;
+  font-size: 2px;
+  background-color: #505F30;
+  z-index: 1;
+  transition: .3s;
+}
+
+#workskin .otherbookmarks {
+  position: relative;
+  vertical-align: top;
+  left: 10px;
+  top: -71px;
+  text-align: center;
+  font-size: 12px;
+  width: 130px;
+  height: 20px;
+  border-radius: 50px;
+  transition: .3s;
+  color: black;
+  overflow: hidden;
+}
+
+#workskin .appandsearchbox {
+  position: relative;
+  top: 10px;
+  height: 27px;
+  left: 1.5%;
+  width: 97%;
+  overflow: hidden;
+}
+
+#workskin .appbar {
+  position: absolute;
+  vertical-align: top;
+  padding-left: 5px;
+  top: 0px;
+  right: 0px;
+  width: 110px;
+  height: 25px;
+  border-radius: 25px;
+  border: solid #17171700 1px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #505F30;
+  transition: .3s;
+}
+
+#workskin .appbarbottom {
+  position: relative;
+  vertical-align: top;
+  padding-left: 5px;
+  top: -25px;
+  left: 71%;
+  height: 25px;
+  border-radius: 25px;
+  border: solid #17171700 1px !important;
+  font-size: 12px;
+  transition: .3s;
+  overflow: hidden;
+}
+
+#workskin .appbarbottom {
+  border: solid #17171720 1px;
+  transition: .1s;
+}
+
+#workskin .app {
+  font-size: 16px;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  top: -18px;
+  text-align: center;
+  width: 25px;
+  height: 20px;
+  border-radius: 100px;
+  background: black opacity 0%;
+  transition: .3s;
+  color: gray;
+}
+
+#workskin .movebar {
+  position: relative;
+  vertical-align: top;
+  padding-left: 5px;
+  width: 115px;
+  height: 25px;
+}
+
+#workskin .searchbar {
+  position: absolute;
+  vertical-align: top;
+  top: 0px;
+  left: 120px;
+  right: 125px !important;
+  text-align: left;
+  max-width: 60%;
+  height: 25px;
+  background: #E9F5DB;
+  border-radius: 25px;
+}
+
+#workskin .searchbar:hover {
+  background: #ffffff;
+  box-shadow: inset 1px 1px 1px #ebc334, inset -1px -1px 1px #ebc334;
+  cursor: text;
+}
+
+#workskin .searchbartext {
+  position: absolute;
+  vertical-align: top;
+  left: 35px;
+  right: 60px;
+  top: -12px;
+  font-size: 12px;
+  text-align: left;
+  color: black;
+  max-width: 80%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 20px;
+}
+
+#workskin .magnifyingglass {
+  font-size: 16px;
+  position: absolute;
+  vertical-align: top;
+  display: inline-block;
+  top: -18px;
+  right: 30px;
+  transition: .3s;
+  text-align: center;
+  width: 25px;
+  height: 20px;
+  border-radius: 30%;
+  background: black opacity 0%;
+}
+
+#workskin .star {
+  font-size: 16px;
+  position: absolute;
+  vertical-align: top;
+  display: inline-block;
+  top: -18px;
+  right: 5px;
+  transition: .3s;
+  text-align: center;
+  width: 25px;
+  height: 20px;
+  border-radius: 30%;
+  background: black opacity 0%;
+  color: gray;
+}
+
+#workskin .star:hover {
+  text-align: center;
+  width: 25px;
+  height: 20px;
+  border-radius: 30%;
+  background: #00000020;
+  color: blue;
+  transition: .3s;
+  cursor: default;
+}
+
+#workskin .locked {
+  font-size: 16px;
+  position: absolute;
+  vertical-align: top;
+  display: inline-block;
+  top: -18px;
+  left: 5px;
+  transition: .3s;
+  text-align: center;
+  width: 25px;
+  height: 20px;
+  border-radius: 30%;
+  background: black opacity 0%;
+  color: gray;
+}
+
+#workskin .locked:hover {
+  text-align: center;
+  width: 25px;
+  height: 20px;
+  border-radius: 30%;
+  background: #00000020;
+  transition: .3s;
+  cursor: default;
+}
+
+#workskin .tabsbox {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  left: 7px;
+  top: 10px;
+  width: 450px;
+  max-width: 60%;
+  height: 20px;
+  font-size: 12px;
+  color: black;
+}
+
+#workskin .tab1 {
+  position: absolute;
+  vertical-align: top;
+  display: inline-block;
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  max-width: 30%;
+  height: 25px;
+  background: #90A955;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 1px 1px 3px black, -1px, -1px, 3px black;
+  text-align: top;
+  padding: 5px;
+  font-size: 12px;
+  color: black;
+  z-index: 1;
+}
+
+#workskin .tab1::before {
+  position: absolute;
+  vertical-align: top;
+  top: 5px;
+  left: 15px;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+  width: 130px;
+  height: 15px;
+  max-width: 70%;
+  overflow: hidden;
+  content: "Rataalada.com";
+}
+
+#workskin .tab1:hover {
+  background: #505F30;
+  transition: .1s;
+}
+
+#workskin .tab2 {
+  position: absolute;
+  vertical-align: top;
+  display: inline-block;
+  left: 33%;
+  top: 0px;
+  width: 150px;
+  max-width: 33%;
+  height: 25px;
+  background: #738844;
+  border-right: 3px solid #123f45;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: .2s;
+  font-size: 12px;
+  color: black;
+}
+
+#workskin .tab2::before {
+  position: absolute;
+  vertical-align: top;
+  top: 5px;
+  left: 15px;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+  width: 130px;
+  height: 15px;
+  max-width: 70%;
+  overflow: hidden;
+  content: "🔒 Freedom";
+}
+
+#workskin .tab2:hover {
+  background: #505F30;
+  transition: .1s;
+}
+
+#workskin .tab3 {
+  position: absolute;
+  vertical-align: center;
+  display: inline-block;
+  top: 0px;
+  right: 0px;
+  width: 150px;
+  max-width: 33%;
+  height: 25px;
+  background: #738844;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: .2s;
+  font-size: 12px;
+  color: black;
+}
+
+#workskin .tab3::before {
+  position: absolute;
+  vertical-align: top;
+  top: 5px;
+  left: 15px;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+  width: 130px;
+  height: 15px;
+  max-width: 70%;
+  overflow: hidden;
+  content: "🔒 Answers";
+}
+
+#workskin .tab3:hover {
+  background: #505F30;
+  transition: .1s;
+}
+
+#workskin .tab4 {
+  position: absolute;
+  display: inline-block;
+  vertical-align: right;
+  top: 2px;
+  right: -25px;
+  width: 20px;
+  height: 20px;
+  background: #738844;
+  border-radius: 50%;
+  transition: .2s;
+}
+
+#workskin .tab4::before {
+  position: absolute;
+  vertical-align: top;
+  top: -2px;
+  right: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  content: "+" !important;
+}
+
+#workskin .tab4:hover {
+  background: #505F30;
+  transition: .1s;
+}
+
+#workskin .textbox {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  font-size: 0px;
+  text-align: left;
+}
+
+#workskin .textboxbox {
+  position: relative;
+  display: inline-block;
+  height: 635px;
+  width: 100%;
+  font-size: 0px;
+  background: #000000;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#workskin .textboxmargin {
+  top: 0;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 35px;
+  font-size: 12px;
+  color: black;
+  background: black;
+  width: 825px;
+  max-width: 90%;
+  text-align: left;
+}
+
+#workskin .scroll wrapped around tboxbx {
+  overflow-y: scroll;
+}
+
+#workskin .textbottom {
+  position: relative;
+  vertical-align: top;
+  top: 0px;
+  left: 0;
+  display: inline-block;
+  height: 160px;
+  width: 100%;
+  background: rgba(62,135,116,1);
+}
+
+#workskin .textbottombox {
+  position: absolute;
+  vertical-align: top;
+  top: 25px;
+  left: 5%;
+  font-size: 12px;
+  color: black;
+  font-family: Georgia,Times,Times New Roman,serif;
+  text-align: left;
+  width: 90%;
+  height: 110px;
+}
+
+#workskin .tabletext:hover {
+  color: black;
+  background: #236653;
+  cursor: pointer;
+}
+
+#workskin .textbottomtable:hover td,
+#workskin .textbottomtable:hover tr {
+  background: #00000000;
+}
+
+#workskin .websiteheader {
+  font-size: 1.3em;
+  font-family: Georgia,Times,Times New Roman,serif;
+  font-weight: bold;
+  color: #e87d7d;
+}
+
+#workskin .inline-block {
+  display: inline-block;
+  position: relative;
+}
+
+#workskin .eyespycontainer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+#workskin .estextbox {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  top: 0;
+  max-height: 500px;
+  width: 100%;
+  font-size: inherit;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+#workskin .estextbox::-webkit-scrollbar {
+  -webkit-appearance: none;
+  display: block;
+  height: 100%;
+}
+
+#workskin .estextbox::-webkit-scrollbar:vertical {
+  width: 12px;
+  height: 100%;
+}
+
+#workskin .estextbox::-webkit-scrollbar:horizontal {
+  height: 12px;
+  display: none;
+}
+
+#workskin .estextbox::-webkit-scrollbar-thumb {
+  background-color: #4bbec410;
+  border-radius: 10px;
+  height: 10px;
+  width: 10px;
+}
+
+#workskin .estextbox::-webkit-scrollbar-thumb:hover {
+  background-color: #4bbec4;
+  border-radius: 10px;
+  height: 10px;
+  width: 10px;
+}
+
+#workskin .estextbox::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f2be5410;
+  display: none;
+}
+
+#workskin HIDDEN TEXT ################################## {
+  color: INHERIT;
+}
+
+#workskin .hidden-link a {
+  display: none;
+}
+
+#workskin .text-container {
+  display: none;
+}
+
+#workskin a:target ~ .text-container {
+  display: block;
+  content: "";
+}
+
+#workskin .paragraph1,
+#workskin .paragraph2,
+#workskin .paragraph3 {
+  content: "";
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+#workskin .paragraph1:after {
+  content: "You will have to put in much more effort to find the last pin digit. Anyone can translate, it just takes time which you do not have. How long have you wasted so far? This is an impossible task, unless you can read this fluently. By now the symbols should look familiar or even easier to figure out. Good job if so. I commend you. I will show you the way since you made it this far. In the search bar type #reveal after the link. It seems in the end I did reveal the answer with no gimmicks. But to be fair no one with two minutes on their hands learning the ciphers would ever make it past this one. How are you doing that?";
+  color: green;
+  transition: color 5s;
+  transition-delay: 2s;
+}
+
+#workskin .paragraph2:after {
+  content: "These puzzles were put in place to be impossible to do in two minutes. Not even you could. And yet you have, Batman. How how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how?! You cheated. You cheated. You cheated. You cheated. You cheated. You cheated. You cheated. You cheated. You have to have! I made it impossible. You shouldn't be here. What are you? Get out. Get out get out get out get out get out get out get out get out get out get out! It does not matter if you made it this far or get past everything else. I have learned from my past mistakes. I am not alone in wanting Gotham to becured. My plan will not fail this time.";
+  color: green;
+  transition: color 5s;
+  transition-delay: 2s;
+}
+
+#workskin .paragraph3:after {
+  content: "But if you are here during the impossible.. reading this... if my plan somehow fails.. what does that mean for everything I have done? Everything I sacrified. The city. The flooding. The people. Everything I went through because of corruption. What does it mean then? I suppose if you can read this somehow because it IS impossible for you to find this, then you can have the number. Six. Good luck. This wont stop me. You wont win.";
+  color: green;
+  transition: color 5s;
+  transition-delay: 2s;
+}
+
+#workskin POPUP TEXT BY INFINITYWRAITH ################################## {
+  color: INHERIT;
+}
+
+#workskin .popup {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+#workskin .popup-content {
+  position: absolute;
+  vertical-align: top;
+  font-size: 0;
+  top: -40px;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+#workskin .popup-content a {
+  padding: 20px;
+  color: #f2be54;
+  font-weight: bold;
+  font-family: Georgia,Times,Times New Roman,serif;
+  text-align: center;
+  text-shadow: 0px .5px 10px black, .5px 0px 10px black;
+  border-radius: 25px;
+  transform: skewY(-1deg);
+  text-decoration: none;
+  border: none;
+}
+
+#workskin .popup:hover .popup-content,
+#workskin .popup:hover .popup-content a {
+  font-size: 30px;
+  transition: font-size .2s, text-shadow 5s;
+  transition-delay: text-shadow 1s;
+  text-shadow: 10px 10px 50px #f2be54, -10px -10px 50px #f2be54, 0px .5px 10px black, .5px 0px 10px black;
+}
+
+#workskin REVEAL (PRAISETHESUN) FROM INFINITYWRAITH ################################## {
+  color: INHERIT;
+}
+
+#workskin .popup-patience {
+  position: relative;
+}
+
+#workskin .popup-content-patience {
+  position: absolute;
+  vertical-align: top;
+  left: 0;
+  bottom: 0;
+  font-size: 0px;
+  z-index: 1;
+  opacity: 0;
+}
+
+#workskin .popup-patience:hover .popup-content-patience {
+  left: 20%;
+  bottom: 200px;
+  width: 200px;
+  max-width: 60%;
+  color: gold;
+  opacity: 100%;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 10px 10px 100px #f2be54, -10px -10px 100px #f2be54, 0px .5px 10px black, .5px 0px 10px black;
+  transition-delay: text-shadow 1s, opacity 3s;
+  transition-timing-function: ease-in-out;
+  transition: 7s;
+}
+
+#workskin EXCEL BY ssc_lmth ################################## {
+  color: INHERIT;
+}
+
+#workskin .spreadsheetlegend {
+  background-color: gainsboro;
+  color: dimgray;
+  text-align: center;
+}
+
+#workskin .spreadsheetheader {
+  text-align: center;
+  font-weight: bold;
+}
+
+#workskin table {
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.8em;
+}
+
+#workskin table th {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+#workskin table td {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+#workskin table th:first-child,
+#workskin table td:first-child {
+  border-left: 1px solid gray;
+}
+
+#workskin table tr {
+  height: 12px;
+}
+
+#workskin .autofit {
+  width: 100%;
+  table-layout: auto;
+}
+
+#workskin .nofit {
+  width: 100%;
+  table-layout: fixed;
+}
+
+#workskin .nofit1 {
+  width: 3%;
+}
+
+#workskin .nofit2 {
+  width: auto;
+}
+
+#workskin .scroll {
+  width: 100%;
+  table-layout: fixed;
+}
+
+#workskin .scrollable {
+  overflow: scroll;
+  max-width: 100%;
+  max-height: 300px;
+}
+
+#workskin .scroll1 {
+  width: 12px;
+}
+
+#workskin .scroll2 {
+  width: 200px;
+}
+
+#workskin .freezetop {
+  position: sticky;
+  top: 0;
+}
+
+#workskin .freezeleft {
+  position: sticky;
+  left: 0;
+}
+
+#workskin .selectedcell {
+  border: 2px solid forestgreen;
+}
+
+#workskin .square {
+  height: 6px;
+  width: 6px;
+  background-color: forestgreen;
+  position: relative;
+  left: 100%;
+  bottom: -8px;
+  border: 1px solid white;
+}
+
+#workskin .arg1 {
+  color: royalblue;
+}
+
+#workskin .arg2 {
+  color: orange;
+}
+
+#workskin .arg3 {
+  color: darkviolet;
+}
+
+#workskin .arg1border {
+  border: 2px dashed royalblue;
+}
+
+#workskin .arg1bordertop {
+  border-top: 2px dashed royalblue;
+}
+
+#workskin .arg1borderright {
+  border-right: 2px dashed royalblue;
+}
+
+#workskin .arg1borderleft {
+  border-left: 2px dashed royalblue;
+}
+
+#workskin .arg1borderbottom {
+  border-bottom: 2px dashed royalblue;
+}
+
+#workskin .arg1fill {
+  background-color: lightblue;
+}
+
+#workskin .arg2border {
+  border: 2px dashed orange;
+}
+
+#workskin .arg2bordertop {
+  border-top: 2px dashed orange;
+}
+
+#workskin .arg2borderright {
+  border-right: 2px dashed orange;
+}
+
+#workskin .arg2borderleft {
+  border-left: 2px dashed orange;
+}
+
+#workskin .arg2borderbottom {
+  border-bottom: 2px dashed orange;
+}
+
+#workskin .arg2fill {
+  background-color: navajowhite;
+}
+
+#workskin .arg3border {
+  border: 2px dashed darkviolet;
+}
+
+#workskin .arg3bordertop {
+  border-top: 2px dashed darkviolet;
+}
+
+#workskin .arg3borderright {
+  border-right: 2px dashed darkviolet;
+}
+
+#workskin .arg3borderleft {
+  border-left: 2px dashed darkviolet;
+}
+
+#workskin .arg3borderbottom {
+  border-bottom: 2px dashed darkviolet;
+}
+
+#workskin .arg3fill {
+  background-color: thistle;
+}
+
+#workskin DISCORD BY BookKeep ################################## {
+  color: INHERIT;
+}
+
+#workskin .window {
+  margin: 0;
+  padding: 0 0 1rem 0;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  overflow: hidden;
+  vertical-align: baseline;
+  border: 1px solid rgb(54, 57, 63);
+  border-radius: 0.25rem;
+}
+
+#workskin .window p,
+#workskin .window a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#workskin .window :is(h1,
+#workskin h2,
+#workskin h3,
+#workskin h4,
+#workskin h5,
+#workskin h6) {
+  font-family: "ABC Ginto Normal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.0625rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#workskin .code {
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  padding: 0.2em;
+  margin: -0.2em 0;
+  border-radius: 0.1875rem;
+  font-size: 0.85rem !important;
+  text-indent: 0;
+  border: none;
+  white-space: pre-wrap;
+}
+
+#workskin .channel-header {
+  z-index: 100;
+  min-width: 0;
+  width: 100%;
+  height: 48px;
+  padding: 0 8px;
+  font-size: 16px;
+  line-height: 20px;
+  display: inline;
+  position: relative;
+}
+
+#workskin .channel-header::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+#workskin .channel-header::after {
+  content: "";
+  position: relative;
+  display: block;
+  top: 18px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  -webkit-box-shadow: rgba(4, 4, 5, 0.2) 0px 1px 0px 0px, rgba(6, 6, 7, 0.05) 0px 1.5px 0px 0px, rgba(4, 4, 5, 0.05) 0px 2px 0px 0px;
+  box-shadow: rgba(4, 4, 5, 0.2) 0px 1px 0px 0px, rgba(6, 6, 7, 0.05) 0px 1.5px 0px 0px, rgba(4, 4, 5, 0.05) 0px 2px 0px 0px;
+  z-index: 1;
+}
+
+#workskin .channel-header>h3 {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#workskin .channel-description {
+  display: inline;
+  margin-left: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+#workskin .channel-divider {
+  border-left: 1px solid;
+  display: inline;
+  margin: 0 0.5rem 0 1rem;
+  height: 24px;
+}
+
+#workskin .theme-dark {
+  color: rgb(220, 221, 222);
+  background-color: rgb(54, 57, 63);
+}
+
+#workskin .theme-dark :is(h1,
+#workskin h2,
+#workskin h3,
+#workskin h4,
+#workskin h5,
+#workskin h6) {
+  color: rgb(255, 255, 255);
+}
+
+#workskin .theme-dark .channel-divider {
+  border-color: rgb(220, 221, 222);
+}
+
+#workskin .theme-dark .code,
+#workskin .theme-dark .embed {
+  background-color: rgb(47, 49, 54);
+}
+
+#workskin .theme-dark .date {
+  color: rgb(163, 166, 170);
+}
+
+#workskin .theme-dark .date-divider {
+  background-color: rgb(54, 57, 63);
+}
+
+#workskin .theme-dark .blockquote-divider {
+  background-color: rgb(79, 84, 92);
+}
+
+#workskin .theme-dark a,
+#workskin .theme-dark .link {
+  color: rgb(0, 175, 244);
+}
+
+#workskin .theme-dark a:hover {
+  color: rgb(0, 175, 244);
+  text-decoration: underline;
+}
+
+#workskin .theme-dark .reply,
+#workskin .theme-dark .channel-description {
+  color: rgb(185, 187, 190);
+}
+
+#workskin .theme-dark .spoiler {
+  background-color: rgb(10, 10, 10, 0.95);
+}
+
+#workskin .theme-dark .reaction:not(.me) {
+  background-color: rgb(47, 49, 54);
+  border-color: transparent;
+  color: rgb(185, 187, 190);
+}
+
+#workskin .theme-dark .reaction.me {
+  background-color: rgb(59, 64, 90);
+  border-color: rgb(88, 101, 242);
+  color: rgb(222, 224, 252);
+}
+
+#workskin .theme-dark .mention {
+  color: rgb(222, 224, 252);
+  background-color: rgb(88, 101, 242, 0.3);
+}
+
+#workskin .theme-dark .reply::before {
+  border-color: rgb(79, 84, 92);
+}
+
+#workskin .theme-dark .message:has(.mention.me) {
+  background-color: rgb(250, 168, 26, 0.1);
+  border-left: 2px solid rgb(250, 168, 26);
+}
+
+#workskin .theme-dark .new-divider {
+  border-top-color: rgb(237, 66, 67);
+}
+
+#workskin .theme-dark .new-divider .date-divider {
+  color: rgb(237, 66, 67);
+}
+
+#workskin .theme-dark .new-tag {
+  background-color: rgb(237, 66, 67);
+  color: rgb(255, 255, 255);
+}
+
+#workskin .theme-dark .new-tag::before {
+  border-right-color: rgb(237, 66, 67);
+  border-top-color: rgb(54, 57, 63);
+  border-bottom-color: rgb(54, 57, 63);
+}
+
+#workskin .theme-dark .typing-indicator span {
+  background-color: rgb(220, 221, 222);
+}
+
+#workskin .theme-dark .chat {
+  background-color: rgb(64, 68, 75);
+}
+
+#workskin .theme-dark .hashtag::before {
+  background-image: url(https://i.imgur.com/y0r7k71.png);
+}
+
+#workskin .theme-dark .hashlock::before {
+  background-image: url(https://i.imgur.com/TUuqT0R.png);
+}
+
+#workskin .theme-dark .at-symbol::before {
+  background-image: url(https://i.imgur.com/Pd0cDve.png);
+}
+
+#workskin .theme-dark .chat-text::before {
+  background-image: url(https://i.imgur.com/LjARlpe.png);
+}
+
+#workskin .date-divider {
+  padding: 0.125rem 0.25rem;
+  line-height: 0.8125rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  display: block;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  z-index: 5;
+}
+
+#workskin .divider {
+  z-index: 1;
+  height: 0;
+  border-top: thin solid rgb(79, 84, 92, 0.48);
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 1.5rem 0.875rem 0.5rem 1rem;
+}
+
+#workskin .message {
+  min-height: 2.75rem;
+  margin-top: 1.0625rem;
+  padding: 0.125rem 3rem 0.125rem 4.5rem;
+}
+
+#workskin .username {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.375rem;
+  white-space: break-spaces;
+  word-wrap: break-word;
+  margin-right: 0.25rem;
+}
+
+#workskin .username::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: 0.125rem;
+  left: 1.25rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+#workskin .timestamp,
+#workskin .edited {
+  margin-left: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1.375rem;
+  white-space: nowrap;
+}
+
+#workskin .message-text {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  white-space: break-spaces;
+  word-wrap: break-word;
+  padding: 0.125rem 0 0.125rem 0;
+}
+
+#workskin .quote-container {
+  display: table;
+}
+
+#workskin .blockquote-divider {
+  display: table-cell;
+  width: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+#workskin .quote {
+  display: table-cell;
+  padding: 0 0.5rem 0 0.75rem;
+  box-sizing: border-box;
+  text-indent: 0;
+}
+
+#workskin .spoiler-text {
+  cursor: pointer;
+  border-radius: 0.1875rem;
+  display: inline-block;
+}
+
+#workskin .theme-dark .spoiler-text {
+  color: rgb(32, 34, 37);
+  background-color: rgb(32, 34, 37);
+  -webkit-transition: all 0s 2147483647s;
+  -moz-transition: all 0s 2147483647s;
+  -ms-transition: all 0s 2147483647s;
+  -o-transition: all 0s 2147483647s;
+  transition: all 0s 2147483647s;
+}
+
+#workskin .theme-dark .spoiler-text:active {
+  color: rgb(220, 221, 222);
+  background-color: rgb(74, 77, 83);
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+#workskin .spoiler {
+  display: inline-block;
+  position: relative;
+  border-radius: 3px;
+}
+
+#workskin .spoiler>img {
+  opacity: 0;
+  position: relative;
+  vertical-align: bottom;
+}
+
+#workskin .theme-dark .spoiler>img {
+  opacity: 0;
+  z-index: 10;
+  background-color: rgb(54, 57, 63);
+  -webkit-transition: all 0s 2147483647s;
+  -moz-transition: all 0s 2147483647s;
+  -ms-transition: all 0s 2147483647s;
+  -o-transition: all 0s 2147483647s;
+  transition: all 0s 2147483647s;
+}
+
+#workskin .theme-dark .spoiler:active>img {
+  opacity: 1;
+  z-index: 10;
+  background-color: rgb(54, 57, 63);
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+#workskin .spoiler:before {
+  content: 'SPOILER';
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 5;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1.25rem;
+  letter-spacing: .5px;
+  color: rgb(220, 221, 222);
+  background-color: rgb(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+#workskin .emoji {
+  width: 3rem;
+  height: 3rem;
+  min-height: 3rem;
+  padding-right: 0.25rem;
+}
+
+#workskin .inline-emoji {
+  width: 1.375rem;
+  height: 1.375rem;
+  min-height: 1.375rem;
+  vertical-align: middle;
+  display: inline;
+}
+
+#workskin .reaction {
+  display: inline-flex;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.5rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+  border: 1px solid transparent;
+  height: 1.625rem;
+}
+
+#workskin .reaction-emoji {
+  display: inline-flex;
+  width: 1rem;
+  height: 1rem;
+  padding: 0.125rem 0;
+}
+
+#workskin .reaction-count {
+  display: inline-flex;
+  font-size: 0.875rem;
+  min-width: 0.5625rem;
+  padding-left: 0.375rem;
+}
+
+#workskin .image {
+  border-radius: 0.1875rem;
+  max-width: 360px;
+  width: 100%;
+}
+
+#workskin .reply {
+  margin-bottom: 0.25rem;
+  line-height: 1.125rem;
+  position: relative;
+}
+
+#workskin .reply .username {
+  position: relative;
+  left: 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  height: 1.125rem;
+}
+
+#workskin .reply .username::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: -1.25rem;
+  border-radius: 50%;
+  margin-right: 0.25rem;
+  margin-top: 0.3125rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+#workskin .reply .message-text {
+  position: relative;
+  left: 1rem;
+  font-size: 0.875rem;
+  height: 1.125rem;
+  padding: 0;
+  line-height: 1.125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 80%;
+  transform: translate(0%, 25%);
+}
+
+#workskin .reply::before {
+  content: '';
+  display: block;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  top: 0.625rem;
+  right: 100%;
+  bottom: 0;
+  left: -2.25rem;
+  margin: -0.0625rem 0.25rem -0.125rem -0.0625rem;
+  border-style: solid;
+  border-width: 0.125rem 0 0 0.125rem;
+  border-top-left-radius: 0.375rem;
+}
+
+#workskin .mention {
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+#workskin .new-user::before {
+  content: '';
+  background-image: url(https://i.imgur.com/AATotHy.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: 0.125rem;
+  left: 2rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+#workskin .new-divider {
+  z-index: 1;
+  height: 0;
+  position: relative;
+  border-top-width: thin;
+  border-top-style: solid;
+  margin: 0.5rem 0.875rem 0.5rem 1rem;
+}
+
+#workskin .new-tag {
+  padding: 0 0.25rem 0 0.25rem;
+  line-height: 0.75rem;
+  height: 0.75rem;
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0.1rem 0.25rem 0.25rem 0.1rem;
+  display: block;
+  position: absolute;
+  right: 0.875rem;
+  top: 50%;
+  transform: translate(50%, -50%);
+  z-index: 5;
+}
+
+#workskin .new-tag::before {
+  content: '';
+  left: -0.3rem;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 0.375rem solid;
+  border-bottom: 0.375rem solid;
+  border-right: 0.5rem solid;
+}
+
+#workskin .chat {
+  margin: 1.5rem 1rem 0;
+  padding: 1rem 3.5rem;
+  border-radius: 0.5rem;
+  position: relative;
+  min-height: 1.5rem;
+}
+
+#workskin .chat-text {
+  display: contents;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+#workskin .chat-text::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+#workskin .bot {
+  position: relative;
+  margin-right: 3rem;
+}
+
+#workskin .bot::before {
+  content: '\00a0\00a0\00a0\00a0 BOT';
+  color: rgb(255, 255, 255);
+  background-color: rgb(88, 101, 242);
+  background-image: url(https://i.imgur.com/3Ox94zk.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  padding: 0 0.25rem;
+  border-radius: 0.1875rem;
+  font-size: 0.625rem;
+  line-height: 1rem;
+  height: 1rem;
+  width: 2rem;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+#workskin .embed {
+  display: block;
+  margin: 0.25rem 0;
+  padding: 0.5rem 1rem 1rem 0.75rem;
+  border-left: 0.25rem solid rgb(255, 0, 0);
+  border-radius: 0.25rem;
+  max-width: 432px;
+}
+
+#workskin .embed-title {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+#workskin .embed-text {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+#workskin .embed-image {
+  margin-top: 1rem;
+  border-radius: 0.25rem;
+}
+
+#workskin .typing {
+  margin: 0 1.5rem;
+}
+
+#workskin .typing-indicator {
+  width: auto;
+  border-radius: 1em;
+  padding-right: 0.75em;
+  display: inline;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  clear: both;
+}
+
+#workskin .typing-indicator span {
+  height: .65rem;
+  width: .65rem;
+  float: left;
+  margin: .425rem 0 .425rem 0;
+  margin-left: 0.1rem;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#workskin .typing-indicator span:nth-child(1) {
+  opacity: 0.4;
+  transform: scale(0.6, 0.6);
+}
+
+#workskin .typing-indicator span:nth-child(2) {
+  opacity: 0.6;
+  transform: scale(0.8, 0.8);
+}
+
+#workskin .typing-indicator span:nth-child(3) {
+  opacity: 0.9;
+  transform: scale(1, 1);
+}
+
+#workskin .people-typing {
+  font-size: 0.875rem;
+}
+
+#workskin .mention-role-purple {
+  color: rgb(166, 135, 245);
+  background-color: rgb(166, 135, 245, 0.1);
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+#workskin .pink {
+  color: pink;
+}
+
+#workskin .turquoise {
+  color: turquoise;
+}
+
+#workskin .green {
+  color: springgreen;
+}
+
+#workskin .blue {
+  color: rgb(66, 135, 245);
+}
+
+#workskin .user1::before {
+  background-image: url(https://as1.ftcdn.net/v2/jpg/01/16/24/44/1000_F_116244459_pywR1e0T3H7FPk3LTMjG6jsL3UchDpht.jpg);
+}
+
+#workskin .user2::before {
+  background-image: url(https://i.imgur.com/jp8Pb9Y.png);
+}
+
+#workskin .user3::before {
+  background-image: url(https://i.imgur.com/UKYnL6O.png);
+}
+
+#workskin .user4::before {
+  background-image: url(https://img.freepik.com/free-vector/cute-cat-sleeping-pillow-cartoon-icon-illustration_138676-2817.jpg);
+}
+
+#workskin .user5::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2021/2021646.png);
+}
+
+#workskin TWITCH BY Ultraviollett ################################## {
+  color: INHERIT;
+}
+
+#workskin .twitch {
+  margin: auto;
+  display: block;
+  float: none;
+  width: 20em;
+  padding: 1em 1em 1em 1em;
+  font-size: small;
+}
+
+#workskin .twitchdark {
+  margin: auto;
+  display: block;
+  float: none;
+  width: 20em;
+  padding: 1em 1em 1em 1em;
+  border: 1px solid rgba(135, 135, 135, 0.502);
+  border-radius: 3px;
+  font-size: small;
+  background-color: rgba(0, 0, 0, 0.864);
+  color: white;
+}
+
+#workskin .twitch>p,
+#workskin .twitchdark>p {
+  display: block;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding: 0.7vh 5px 0.7vh 5px;
+  margin: unset;
+}
+
+#workskin .twitch>p:hover,
+#workskin .twitchdark>p:hover {
+  background-color: rgba(130, 130, 130, 0.1);
+  border-radius: 5px;
+}
+
+#workskin .twitch :nth-of-type(n) b,
+#workskin .twitchdark :nth-child(n) b {
+  color: green;
+}
+
+#workskin .twitch :nth-child(2n) b,
+#workskin .twitchdark :nth-child(2n) b {
+  color: chocolate;
+}
+
+#workskin .twitch :nth-child(3n+0) b,
+#workskin .twitchdark :nth-child(3n+0) b {
+  color: purple;
+}
+
+#workskin .twitch :nth-child(4n-1) b,
+#workskin .twitchdark :nth-child(4n-1) b {
+  color: blue;
+}
+
+#workskin .twitch :nth-child(6n+2) b,
+#workskin .twitchdark :nth-child(6n+2) b {
+  color: blueviolet;
+}
+
+#workskin .twitch b:hover,
+#workskin .twitchdark b:hover {
+  background-color: rgba(136, 136, 136, 0.2);
+  border-radius: 5px;
+}
+
+#workskin .twitch .user1:hover,
+#workskin .twitchdark .user1:hover {
+  background-color: rgba(136, 136, 136, 0.2);
+  border-radius: 5px;
+}
+
+#workskin .twitch .user1,
+#workskin .twitchdark .user1 {
+  font-weight: bold;
+  color: rgb(0, 162, 162);
+}
+
+#workskin .twitchgrey {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 93%;
+  opacity: 40%;
+  background-color: rgba(255, 255, 255, 0.051) !important;
+}
+
+#workskin .twitch img,
+#workskin .twitchdark img {
+  height: 23px;
+  vertical-align: middle;
+}
+
+#workskin GIF OVERLAY BY INFINITYWRAITH ################################## {
+  color: INHERIT;
+}
+
+#workskin .bggif-container {
+  position: relative;
+  width: 99%;
+  overflow: hidden;
+  border: solid pink;
+}
+
+#workskin .bggif {
+  position: absolute;
+  top: 0;
+  opacity: 32%;
+  width: 100%;
+  height: 100%;
+}
+
+#workskin LETTER BY INFINITYWRAITH ################################## {
+  color: INHERIT;
+}
+
+#workskin .trifold_letter {
+  position: relative;
+  margin: 0 auto;
+  font-size: 0;
+  font-family: Papyrus;
+  width: 600px;
+  height: 240px;
+  max-width: 80%;
+  min-width: 50%;
+  transition: 2s;
+  transition-delay: 2s;
+}
+
+#workskin .trifold_letter:hover {
+  height: 600px;
+  transition: 2s;
+}
+
+#workskin .letter_cover {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  color: #383C45;
+  background: linear-gradient(344deg, rgba(255,254,242,1) 0%, rgba(248,246,224,1) 6%, rgba(244,241,215,1) 37%, rgba(238,235,203,1) 51%, rgba(247,245,222,1) 92%, rgba(255,254,242,1) 100%);
+  box-shadow: -2px 1px 5px 1px #00000010, 1px -2px 5px 1px #00000010;
+  border: solid #383C4550 1px;
+  width: 110%;
+  min-height: 240px;
+  max-height: 240px;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 8;
+}
+
+#workskin .letter_cover:hover {
+  cursor: wait;
+}
+
+#workskin .trifold_letter:hover .letter_cover {
+  top: -100px;
+  left: 0px;
+  background: linear-gradient(344deg, rgba(254,252,231,1) 0%, rgba(251,249,226,1) 6%, rgba(244,241,215,1) 37%, rgba(236,232,195,1) 51%, rgba(249,246,213,1) 92%, rgba(255,253,225,1) 100%);
+  transform: rotate(15deg);
+  transition: 2s;
+  z-index: 0;
+}
+
+#workskin .letter_cover_text {
+  position: relative;
+  margin: 0 auto;
+  top: 50px;
+  max-width: 33%;
+  min-width: 30%;
+  font-size: 20px;
+  overflow: visible;
+}
+
+#workskin .letter_cover_text_top {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  max-width: 33%;
+  min-width: 30%;
+  font-size: 15px;
+  overflow: visible;
+}
+
+#workskin .letter_cover_stamp {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 75px;
+  width: 80px;
+  min-width: 10%;
+  max-width: 30%;
+  background: #f5f5f5;
+  background-image: URL(https://archive.org/download/touch_202010/TOUCH.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 3px;
+  box-shadow: 1px .5px 0px 0px #00000020, 1px .5px 0px 0px white inset;
+}
+
+#workskin .letter_top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #383C45;
+  background: linear-gradient(176deg, rgba(255,251,240,1) 0%, rgba(245,235,207,1) 81%, rgba(255,248,228,1) 100%);
+  height: 200px;
+  max-width: 100%;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  border-top: solid #383C4550 1px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 7;
+}
+
+#workskin .letter_top_text {
+  position: relative;
+  margin: 0 auto;
+  top: 20px;
+  height: 170px;
+  max-width: 90%;
+  font-size: 18px;
+  overflow: auto;
+}
+
+#workskin .trifold_letter:hover .letter_top {
+  left: -20px;
+  transform: skew(5deg);
+  transition: 2s;
+}
+
+#workskin .letter_mid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #383C45;
+  background: linear-gradient(169deg, rgba(214,205,179,1) 0%, rgba(233,224,197,1) 52%, rgba(255,248,229,1) 100%);
+  height: 200px;
+  max-width: 100%;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 6;
+}
+
+#workskin .letter_mid_text {
+  position: relative;
+  margin: 0 auto;
+  top: -20px;
+  max-width: 90%;
+  height: 210px;
+  font-size: 18px;
+  overflow: auto;
+}
+
+#workskin .trifold_letter:hover .letter_mid {
+  top: 200px;
+  left: -20px;
+  transform: skew(-5deg);
+  transition: 2s;
+}
+
+#workskin .letter_bot {
+  position: absolute;
+  top: 0px;
+  left: .1px;
+  color: #383C45;
+  background: linear-gradient(353deg, rgba(255,251,240,1) 0%, rgba(242,231,201,1) 79%, rgba(255,248,228,1) 100%);
+  height: 200px;
+  max-width: 100%;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  border-bottom: solid #383C4550 1px;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 5;
+}
+
+#workskin .letter_bot_text {
+  position: relative;
+  top: -20px;
+  margin: 0 auto;
+  max-width: 90%;
+  height: 160px;
+  font-size: 18px;
+  overflow: auto;
+}
+
+#workskin .trifold_letter:hover .letter_bot {
+  top: 400px;
+  left: -20px;
+  transition: 2s;
+  transform: skew(5deg);
+}
+
+#workskin .trifold_letter2 {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 240px;
+  max-width: 80%;
+  min-width: 50%;
+  font-size: 0;
+  transition: 2s;
+  transition-delay: 2s;
+}
+
+#workskin .trifold_letter2:hover .letter_top2 {
+  left: 10px !important;
+  top: -10px !important;
+  transition: .5s !important;
+  z-index: 11;
+}
+
+#workskin .trifold_letter2:hover .letter_mid2 {
+  left: 10px !important;
+  top: 190px !important;
+  transition: .5s !important;
+  z-index: 10;
+}
+
+#workskin .trifold_letter2:hover .letter_bot2 {
+  left: 10px !important;
+  top: 390px !important;
+  transition: .5s !important;
+  z-index: 9;
+}
+
+#workskin .letter_top2 {
+  position: absolute;
+  left: 1px;
+  top: 0px;
+  color: #383C45;
+  background: linear-gradient(176deg, rgba(255,251,240,1) 0%, rgba(245,235,207,1) 81%, rgba(255,248,228,1) 100%);
+  height: 200px;
+  max-width: 100%;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  border-top: solid #383C4550 1px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 4;
+}
+
+#workskin .letter_top_text2 {
+  position: relative;
+  margin: 0 auto;
+  top: 20px;
+  height: 170px;
+  max-width: 90%;
+  font-size: 18px;
+  overflow: auto;
+}
+
+#workskin .trifold_letter:hover .letter_top2 {
+  top: 50px;
+  left: 10px;
+  transform: skew(5deg);
+  transition: 2s;
+}
+
+#workskin .letter_mid2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #383C45;
+  background: linear-gradient(169deg, rgba(214,205,179,1) 0%, rgba(233,224,197,1) 52%, rgba(255,248,229,1) 100%);
+  height: 200px;
+  max-width: 100%;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 3;
+}
+
+#workskin .letter_mid_text2 {
+  position: relative;
+  top: -20px;
+  margin: 0 auto;
+  max-width: 90%;
+  height: 210px;
+  font-size: 18px;
+  overflow: auto;
+}
+
+#workskin .trifold_letter:hover .letter_mid2 {
+  top: 250px;
+  left: 10px;
+  transform: skew(-5deg);
+  transition: 2s;
+}
+
+#workskin .letter_bot2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #383C45;
+  background: linear-gradient(353deg, rgba(255,251,240,1) 0%, rgba(242,231,201,1) 79%, rgba(255,248,228,1) 100%);
+  height: 200px;
+  max-width: 100%;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  border-bottom: solid #383C4550 1px;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 2;
+}
+
+#workskin .letter_bot_text2 {
+  position: relative;
+  margin: 0 auto;
+  top: -20px;
+  max-width: 90%;
+  height: 160px;
+  font-size: 18px;
+  overflow: auto;
+}
+
+#workskin .trifold_letter:hover .letter_bot2 {
+  top: 450px;
+  left: 10px;
+  transition: 2s;
+  transform: skew(5deg);
+}
+
+#workskin .letter_bot_text::-webkit-scrollbar,
+#workskin .letter_mid_text::-webkit-scrollbar,
+#workskin .letter_top_text::-webkit-scrollbar,
+#workskin .letter_bot_text2::-webkit-scrollbar,
+#workskin .letter_mid_text2::-webkit-scrollbar,
+#workskin .letter_top_text2::-webkit-scrollbar {
+  -webkit-appearance: none;
+  display: block;
+}
+
+#workskin .letter_bot_text::-webkit-scrollbar:vertical,
+#workskin .letter_mid_text::-webkit-scrollbar:vertical,
+#workskin .letter_top_text::-webkit-scrollbar:vertical,
+#workskin .letter_bot_text2::-webkit-scrollbar:vertical,
+#workskin .letter_mid_text2::-webkit-scrollbar:vertical,
+#workskin .letter_top_text2::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+
+#workskin .letter_bot_text::-webkit-scrollbar-thumb,
+#workskin .letter_mid_text::-webkit-scrollbar-thumb,
+#workskin .letter_top_text::-webkit-scrollbar-thumb,
+#workskin .letter_bot_text2::-webkit-scrollbar-thumb,
+#workskin .letter_mid_text2::-webkit-scrollbar-thumb,
+#workskin .letter_top_text2::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(134,156,149,0) 0%, rgba(187,207,200,1) 48%, rgba(134,156,149,0) 100%);
+  border-radius: 8px;
+  border: 2px solid #ffffff25;
+}
+
+#workskin .letter_bot_text::-webkit-scrollbar-thumb:hover,
+#workskin .letter_mid_text::-webkit-scrollbar-thumb:hover,
+#workskin .letter_top_text::-webkit-scrollbar-thumb:hover,
+#workskin .letter_bot_text2::-webkit-scrollbar-thumb:hover,
+#workskin .letter_mid_text2::-webkit-scrollbar-thumb:hover,
+#workskin .letter_top_text2::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(134,156,149,0) 0%, rgba(140,154,149,1) 48%, rgba(134,156,149,0) 100%);
+  border-radius: 8px;
+  border: 2px solid #ffffff25;
+}
+
+#workskin .letter_bot_text::-webkit-scrollbar-track,
+#workskin .letter_mid_text::-webkit-scrollbar-track,
+#workskin .letter_top_text::-webkit-scrollbar-track,
+#workskin .letter_bot_text2::-webkit-scrollbar-track,
+#workskin .letter_mid_text2::-webkit-scrollbar-track,
+#workskin .letter_top_text2::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #ffffff25;
+}
+
+#workskin MUSIC BY polifandomhelps ################################## {
+  color: INHERIT;
+}
+
+#workskin .musicb {
+  background-image: linear-gradient(to right, rgba(25, 76, 165, 1.0) 50%, rgba(25, 76, 165, 0.0) 100%);
+  border-radius: 17px 0 0 17px;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+#workskin .musicb::before {
+  content: '♪';
+  color: #ffffff;
+  display: inline-block;
+  float: left;
+  font-weight: bold;
+  padding: 2px 7px;
+  white-space: normal;
+  vertical-align: top;
+}
+
+#workskin .musicb p {
+  font-style: normal;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-left: 5px;
+}
+
+#workskin .musicb a {
+  color: #ffffff;
+}
+
+#workskin .musicb .name {
+  display: inline-block;
+  white-space: normal;
+  width: 90%;
+}
+
+#workskin .no-italics {
+  font-style: normal;
+}
+
+#workskin STORYBOOK BIBLE CHAPTER THING BY Jnsn ################################## {
+  color: INHERIT;
+}
+
+#workskin .tapestrycont {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  height: 4em;
+  border-radius: 1em;
+  border-color: #8B4513;
+  border-style: double;
+  border-width: 0;
+}
+
+#workskin .tapestry {
+  height: 4em;
+}
+
+#workskin .soundcloud {
+  width: 80vw;
+  max-width: 35em;
+}
+
+#workskin .picture {
+  width: 35em;
+  max-width: 80%;
+  border-color: #8B4513;
+  border-style: double;
+  border-width: .5vw;
+}
+
+#workskin img.quarter {
+  width: 23.5%;
+  border-radius: .5em;
+}
+
+#workskin img.fifth {
+  width: 18.5%;
+}
+
+#workskin img.quarter:hover {
+  transform: scale(1.2);
+}
+
+#workskin .imgleft {
+  height: 8.4em;
+  float: left;
+  margin-left: .5em;
+  margin-bottom: .2em;
+  border-radius: .5em;
+}
+
+#workskin .imgleft2 {
+  width: 2em;
+  height: 3em;
+  max-width: 15vw;
+  float: left;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+#workskin .imgleft3 {
+  width: 3em;
+  height: 3em;
+  max-width: 15vw;
+  float: left;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+#workskin .imgleft4 {
+  width: 7em;
+  max-width: 20vw;
+  float: left;
+  margin-left: .5em;
+}
+
+#workskin .body {
+  text-align: left;
+}
+
+#workskin .book {
+  font-family: "Century Schoolbook", "Century Schoolbook New", Book Antiqua, Century, Palatino, serif;
+  font-size: 110%;
+  text-align: justify;
+  hyphens: auto;
+}
+
+#workskin .smallcaps {
+  font-variant: small-caps;
+}
+
+#workskin .large {
+  font-size: 130%;
+}
+
+#workskin .fantasy {
+  font-family: Zapfino, cursive;
+}
+
+#workskin .firstline::first-line {
+  font-weight: 650;
+  text-transform: uppercase;
+}
+
+#workskin .centerleft {
+  width: max-content;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  hyphens: auto;
+}
+
+#workskin .twocolumns {
+  width: max-content;
+  display: inline-block;
+}
+
+#workskin td,
+#workskin th {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+#workskin LINUX BY jinhari ################################## {
+  color: INHERIT;
+}
+
+#workskin .linux-blue {
+  color: #5D75B0;
+}
+
+#workskin .linux-green {
+  color: #82D832;
+}
+
+#workskin .linux-box-top,
+#workskin .linux-box-bottom {
+  margin: 0;
+  border-width: 1px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#workskin .linux-box-top {
+  background: #282B28;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#workskin .linux-box-bottom {
+  background: #300820;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+#workskin NEXT ################################## {
+  color: INHERIT;
+}
